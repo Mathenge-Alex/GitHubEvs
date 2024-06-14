@@ -1,0 +1,8 @@
+<h1>Countries</h1>
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+<ul *ngIf="!loading && !error">
+  <li *ngFor="let country of countries">
+    <a [routerLink]="['/countries', country.name]">{{ country.name }}</a>
+  </li>
+</ul>
