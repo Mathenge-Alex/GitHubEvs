@@ -1,8 +1,10 @@
-<h1>Countries</h1>
-<div *ngIf="loading">Loading...</div>
-<div *ngIf="error">{{ error }}</div>
-<ul *ngIf="!loading && !error">
-  <li *ngFor="let country of countries">
-    <a [routerLink]="['/countries', country.name]">{{ country.name }}</a>
-  </li>
-</ul>
+<div class="container mt-5">
+  <h1 class="text-center mb-4">Countries</h1>
+  <div *ngIf="loading" class="text-center">Loading...</div>
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+  <ul class="list-group" *ngIf="!loading && !error">
+    <li class="list-group-item" *ngFor="let country of countries">
+      <a [routerLink]="['/countries', country.name]" class="text-decoration-none">{{ country.name }}</a>
+    </li>
+  </ul>
+</div>
