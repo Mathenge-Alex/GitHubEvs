@@ -1,7 +1,18 @@
-<div class="user-card">
-    <img [src]="user.icon" alt="{{ user.username }}">
-    <h2>{{ user.username }}</h2>
-    <p>{{ user.location }}</p>
-    <p>Commits: {{ user.commits }}</p>
-    <p>{{ user.bio }}</p>
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-2">
+            <img [src]="user.icon" class="img-fluid rounded-start" alt="{{ user.username }}">
+        </div>
+        <div class="col-md-10">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a [href]="'https://github.com/' + user.username" target="_blank"
+                        class="text-decoration-none">{{ user.username }}</a>
+                </h5>
+                <p class="card-text">{{ user.bio }}</p>
+                <p class="card-text"><small class="text-muted">{{ user.location }}</small></p>
+                <p class="card-text"><small class="text-muted">Commits: {{ user.commits }}</small></p>
+            </div>
+        </div>
+    </div>
 </div>
