@@ -16,10 +16,12 @@ export class CountriesComponent implements OnInit {
   ngOnInit(): void {
     this.dataService.getData().subscribe(
       (data) => {
+        console.log('Fetched data:', data); // Add this line
         this.countries = data.countries;
         this.loading = false;
       },
       (error) => {
+        console.error('Error:', error); // Add this line
         this.error = error;
         this.loading = false;
       }
