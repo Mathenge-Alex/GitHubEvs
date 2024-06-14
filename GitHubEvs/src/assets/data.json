@@ -1,0 +1,42 @@
+{
+    "countries": [
+        {
+            "name": "USA",
+            "users": [
+                {
+                    "username": "johnDoe",
+                    "icon": "https://avatars.githubusercontent.com/u/12345678?v=4",
+                    "location": "San Francisco, CA",
+                    "commits": 1500,
+                    "bio": "Open source enthusiast and full-stack developer."
+                },
+                {
+                    "username": "janeSmith",
+                    "icon": "https://avatars.githubusercontent.com/u/87654321?v=4",
+                    "location": "New York, NY",
+                    "commits": 1450,
+                    "bio": "Frontend developer and UI/UX designer."
+                }
+            ]
+        },
+        {
+            "name": "Canada",
+            "users": [
+                {
+                    "username": "alexBrown",
+                    "icon": "https://avatars.githubusercontent.com/u/23456789?v=4",
+                    "location": "Toronto, ON",
+                    "commits": 1300,
+                    "bio": "Backend developer and cloud computing expert."
+                },
+                {
+                    "username": "saraWhite",
+                    "icon": "https://avatars.githubusercontent.com/u/98765432?v=4",
+                    "location": "Vancouver, BC",
+                    "commits": 1250,
+                    "bio": "Full-stack developer with a passion for open source."
+                }
+            ]
+        }
+    ]
+}
