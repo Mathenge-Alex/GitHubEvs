@@ -1,0 +1,8 @@
+<h1>{{ country?.name }}</h1>
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+<div *ngIf="!loading && !error">
+  <div *ngFor="let user of users">
+    <app-user-card [user]="user"></app-user-card>
+  </div>
+</div>
