@@ -22,6 +22,7 @@ export class CountryDetailComponent implements OnInit {
     const countryName = this.route.snapshot.paramMap.get('name');
     this.dataService.getData().subscribe(
       (data) => {
+        console.log('Fetched data for country:', countryName, data); // Add this line
         this.country = data.countries.find((c: any) => c.name === countryName);
         if (this.country) {
           this.users = this.country.users;
@@ -29,6 +30,7 @@ export class CountryDetailComponent implements OnInit {
         this.loading = false;
       },
       (error) => {
+        console.error('Error:', error); // Add this line
         this.error = error;
         this.loading = false;
       }
