@@ -1,19 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-/* Add the following to styles.css */
 
-nav {
-    background-color: #333;
-    padding: 10px;
-}
-
-nav a {
-    color: #fff;
-    margin-right: 10px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    text-decoration: underline;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -31,4 +21,52 @@ h1 {
 
 .user-card h2 {
     margin: 0;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive>.table-bordered {
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        border: 0;
+    }
+
+    .breadcrumb {
+        justify-content: center;
+    }
 }
