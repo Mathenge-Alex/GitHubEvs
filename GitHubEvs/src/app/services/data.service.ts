@@ -7,7 +7,7 @@ import { catchError } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class DataService {
-  private dataUrl = 'assets/data.json';
+  private dataUrl = 'http://localhost:3000/data'; // URL to the backend service
 
   constructor(private http: HttpClient) {}
 
