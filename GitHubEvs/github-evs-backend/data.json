@@ -1,0 +1,79 @@
+{
+  "countries": [
+    {
+      "name": "Kenya",
+      "users": [
+        {
+          "username": "JohnMwendwa",
+          "icon": "https://avatars.githubusercontent.com/u/72663882?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 235,
+          "bio": "Full Stack Developer | JavaScript | Reactjs | TypeScript | Nextjs  | Nodejs | Express | MongoDB | MySQL "
+        },
+        {
+          "username": "dirambora",
+          "icon": "https://avatars.githubusercontent.com/u/42798758?v=4",
+          "location": "Nairobi,Kenya",
+          "commits": 143,
+          "bio": "Software Engineer | \r\nJava | SpringBoot  | Flutter |\r\nDigital Creator |\r\nGoogle Women TechMakers Ambasaddor."
+        },
+        {
+          "username": "david-kariuki",
+          "icon": "https://avatars.githubusercontent.com/u/14153276?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 180,
+          "bio": "🥇 \r\n\r\nSoftware Engineer : { I chase code }\r\n\r\nBuilding: davidkariuki.dk, @liniantt"
+        },
+        {
+          "username": "victorpreston",
+          "icon": "https://avatars.githubusercontent.com/u/112781610?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 450,
+          "bio": "Software Engineer | Technical Writer | Project Manager"
+        },
+        {
+          "username": "omololevy",
+          "icon": "https://avatars.githubusercontent.com/u/89441139?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 61,
+          "bio": "Co-Founder, CTO & S. Engineer,\r\nComputer Science,\r\nMachine Learning ||\r\n(Python { Django, Flask}),\r\n(JavaScript: { Angular, ReactJs => NextJs}) Developer"
+        },
+        {
+          "username": "jumaallan",
+          "icon": "https://avatars.githubusercontent.com/u/25085146?v=4",
+          "location": "Nairobi Kenya",
+          "commits": 31,
+          "bio": "Mobile @ SmileID"
+        },
+        {
+          "username": "danielmuthama",
+          "icon": "https://avatars.githubusercontent.com/u/40577986?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 0,
+          "bio": "Hi, let's grow and share new ideas =>\r\n⭕𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐃𝐞𝐯.|\r\n⭕Network Tech.(CCNA & Huawei) |\r\n⭕Machine Learning |\r\n⭕Cloud Dev.(Aws) |\r\n⭕Data Analyst |"
+        },
+        {
+          "username": "jmoseka",
+          "icon": "https://avatars.githubusercontent.com/u/61447440?v=4",
+          "location": "Nairobi, Kenya",
+          "commits": 62,
+          "bio": "WEB DEVELOPER"
+        },
+        {
+          "username": "geeksourcecodes",
+          "icon": "https://avatars.githubusercontent.com/u/57898683?v=4",
+          "location": "Kenya",
+          "commits": 0,
+          "bio": "We help programmers by providing a free and complete source code that can be use in their own application."
+        },
+        {
+          "username": "Mach-Levi",
+          "icon": "https://avatars.githubusercontent.com/u/77607188?v=4",
+          "location": "Kisumu, Kenya",
+          "commits": 2,
+          "bio": "Machine Learning student, self-teaching, GitHub repos beneficiary, and free online courses dependant. Cool with that.\r\n@masen0university "
+        }
+      ]
+    }
+  ]
+}
