@@ -1,4 +1,11 @@
 <div class="container mt-5">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+      <li class="breadcrumb-item"><a routerLink="/countries">Countries</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ country?.name }}</li>
+    </ol>
+  </nav>
   <h1 class="text-center mb-4">{{ country?.name }}</h1>
   <div *ngIf="loading" class="text-center">Loading...</div>
   <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
